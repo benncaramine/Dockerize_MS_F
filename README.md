@@ -1,34 +1,45 @@
-Dockerizing Microservices with Docker Compose
-This repository contains an example of Docker Compose setup for containerizing multiple microservices.
 
-Prerequisites
-Make sure you have the following installed:
+# Dockerizing Microservices with Docker Compose
 
-Docker
-Docker Compose
-Getting Started
-To get started with these microservices, follow these steps:
+This repository contains a sample setup for Dockerizing microservices using Docker Compose. This setup is designed to demonstrate how to containerize multiple microservices and run them together using Docker Compose.
 
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/benncaramine/Dockerize_MS_F
-Navigate to the project directory:
-bash
-Copy code
-cd Dockerize_MS_F
-Build and run the services:
-bash
-Copy code
-docker-compose up --build
-Access the services:
-Consult the Config Repository
+## Prerequisites
 
-Docker Compose
-The docker-compose.yml file describes the services:
-Consult the docker-compose file.
+Before you begin, ensure you have the following installed on your machine:
 
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+- Docker: [Install Docker](https://docs.docker.com/get-docker/)
+- Docker Compose: [Install Docker Compose](https://docs.docker.com/compose/install/)
 
-Please make sure to update tests as appropriate.
+## Getting Started
+
+1. Clone this repository:
+
+    ```bash
+    git clone github.com/benncaramine/Dockerize_MS_F
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Dockerize_MS_F
+    ```
+
+3. Build the Docker images and start the containers:
+
+    ```bash
+    docker-compose up --build
+    ```
+
+4. Access the microservices:
+
+    The microservices should now be running. You can access each service using its respective endpoint.
+
+
+## Configuration
+
+Consult the Config Repository!
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
+
