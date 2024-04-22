@@ -27,11 +27,11 @@ export class AuthenticationService {
     }
   }
 
-
-logout(){
+  logout(){
     this.authenticated = false;
     this.username = undefined;
     this.roles = [];
-    this.router.navigateByUrl("/login").then(() => true);
-}
+    this.router.navigateByUrl("/login");
+  }
+
 }
