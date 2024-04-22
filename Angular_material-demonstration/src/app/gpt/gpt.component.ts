@@ -60,6 +60,7 @@ export class GptComponent implements OnInit {
         }
       })
   }
+  // Integration de CHAT d'OpenAI
 }
 
 
